@@ -1,0 +1,26 @@
+{
+  "id": 101,
+  "name": "AD060027",
+  "category": "Truck",
+  "class": "-",
+  "commdate": "2024-09-11",
+  "default_act": "-",
+  "ext_id": "-",
+  "extra_props": {
+    "status": "OPRT",
+    "equipment_id": "300000016935202"
+  },
+  "model": "-",
+  "oracle_number": "AD060027",
+  "hour_meter": 0,
+  "project": "C0021F",
+  "serial_number": "AD060027",
+  "subcategory": "-",
+  "tonnage": 60,
+  "truck_factor": null,
+  "hull_number": "AD SMA 2 033",
+  "asset_name": "AD SMA 2 033_ADT VOLVO-60T",
+  "uuid": "dac8721b-3f73-4efa-88c9-b75091f115f4",
+  "status": "Ready",
+  "type": null
+}

@@ -1,0 +1,10 @@
+{
+  "appId": "5d1eb8c1-6052-40a3-89b5-55fee088a71a",
+  "macAddress": "00:00:00:00:00:00",
+  "hostName": "fms-dev-01",
+  "offlineMode": false,
+  "developerMode": false,
+  "kioskMode": false,
+  "quickEventActions": [],
+  "adminToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzI4MzY0NDM3LCJleHAiOjE3Mjg0MTQ4Mzd9.QN6bcG13cj7yURPMqXWM5JQRoRmcxz8Yn11JedLchaY"
+}
