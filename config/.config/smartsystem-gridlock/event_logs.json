@@ -1,0 +1,530 @@
+[
+  {
+    "id": 48,
+    "status": "Operational Delay",
+    "type": "DELAY",
+    "description": "Prestart Check Unit",
+    "code": "PCU-D-0132",
+    "pinned_events": [
+      {
+        "equipment_type": "Truck",
+        "event_id": 48
+      }
+    ],
+    "timestamp": "2024-10-31T08:34:22.611Z",
+    "hourMeter": 222,
+    "attributes": {
+      "results": [
+        {
+          "id": 1,
+          "check": "Kondisi Ban (Tyres)",
+          "description": "Bocor/Kurang angin/Rusak (Inflation/Damage)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 2,
+          "check": "Baut/Nut Roda (Wheel Nuts)",
+          "description": "Kekencangan baut/nut Roda (Tight)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 3,
+          "check": "Bagian Mesin (Engine Compartment)",
+          "description": "Kebocoran (Leakage)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 4,
+          "check": "Oli Mesin (Engine oil level)",
+          "description": "Batas normal (Correct)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 5,
+          "check": "Oli Hidraulik (Hydraulic oil level)",
+          "description": "Batas normal (Correct)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 6,
+          "check": "Minyak Rem (Brake Reservoir level)",
+          "description": "Batas normal (Correct)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 7,
+          "check": "Oli Transmisi (Transmission oil level)",
+          "description": "Batas normal (Correct)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 8,
+          "check": "Air Radiator (Coolant Level)",
+          "description": "Batas normal (Correct)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 9,
+          "check": "Radiator",
+          "description": "Bocor atau Tersumbat (Leak or Blocked)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 10,
+          "check": "Tekanan Angin Rem (Brake Air Pressure)",
+          "description": "Batas normal (Correct)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 11,
+          "check": "Rem (Brakes)",
+          "description": "Uji coba (Test)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 12,
+          "check": "Rem Parkir (Park Brake)",
+          "description": "Uji coba (Test)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 13,
+          "check": "Seat Belt",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 14,
+          "check": "Sitem Peringatan (System Indicators)",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 15,
+          "check": "Penunjuk Parameter (Gauges)",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 16,
+          "check": "Lampu (Lamps/Lights)",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 17,
+          "check": "Alarm Mundur (Reverse Alarm)",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 18,
+          "check": "Pemadam Api (Fire Extinguisher)",
+          "description": "Charging/Ada (Charged/Available)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 19,
+          "check": "Transmission",
+          "description": "Tidak Macet (Shifting correctly)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 20,
+          "check": "Steering",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 21,
+          "check": "Suara Berisik (Noises)",
+          "description": "Ada bunyi yang tidak normal (Any strange noises)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 22,
+          "check": "Bahan Bakar (Diesel/Fuel Level)",
+          "description": "Batas normal (Correct)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 23,
+          "check": "Radio Komunikasi (Radio Communication)",
+          "description": "Berfungsi Norma (Working properly, transmit & Recvd)",
+          "condition": true,
+          "category": "A"
+        },
+        {
+          "id": 24,
+          "check": "Silinder Hidraulik (Hydraulic Cylinders)",
+          "description": "Kebocoran/Kerusakan (Leakage/Damage)",
+          "condition": true,
+          "category": "B"
+        },
+        {
+          "id": 25,
+          "check": "Pendingin Ruangan (Air Conditioner)",
+          "description": "Dingin (Cool)",
+          "condition": true,
+          "category": "B"
+        },
+        {
+          "id": 26,
+          "check": "Lampu Rotari (Rotating Beacon)",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "B"
+        },
+        {
+          "id": 27,
+          "check": "Air Cleaner Indicator",
+          "description": "Batas normal (In normal range)",
+          "condition": true,
+          "category": "B"
+        },
+        {
+          "id": 28,
+          "check": "Ruang Operator (Operator Compartmen)",
+          "description": "Kebersihan/Kerusakan (Cleanliness/Damage)",
+          "condition": true,
+          "category": "C"
+        },
+        {
+          "id": 29,
+          "check": "Body",
+          "description": "Kerusakan (Damage)",
+          "condition": true,
+          "category": "C"
+        },
+        {
+          "id": 30,
+          "check": "Kaca Jendela (Window Glass)",
+          "description": "Rusak (Broken)",
+          "condition": true,
+          "category": "C"
+        },
+        {
+          "id": 31,
+          "check": "Wiper Kaca Depan (Windscreen Wipers)",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "C"
+        },
+        {
+          "id": 32,
+          "check": "Air untuk Wiper Kaca (Windscreen Washer)",
+          "description": "Bekerja/Ketinggian air normal (Working/Level)",
+          "condition": true,
+          "category": "C"
+        },
+        {
+          "id": 33,
+          "check": "Klakson (Horn)",
+          "description": "Bekerja (Working)",
+          "condition": true,
+          "category": "C"
+        }
+      ]
+    },
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:34:22.329Z",
+    "isSynced": true,
+    "_id": "ec4e4a95-247a-402b-ada7-069bd3ec59ac"
+  },
+  {
+    "id": 107,
+    "description": "Travelling",
+    "code": "T-W-0096",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:34:50.795Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:34:50.795Z",
+    "updated_at": "2024-10-31T08:34:50.657Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "6e901b4d-dc9a-4e31-ba03-8587e8660694"
+  },
+  {
+    "id": 96,
+    "description": "Arrived at Loading Point",
+    "code": "AALP-W-0153",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:35:03.967Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:35:03.967Z",
+    "updated_at": "2024-10-31T08:35:03.704Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "1d0f5103-8afe-4841-bd57-fd71e947d99e"
+  },
+  {
+    "id": 146,
+    "description": "Loading",
+    "code": "L-W-0099",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:38:33.213Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:38:33.213Z",
+    "updated_at": "2024-10-31T08:38:32.998Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "3f302d1b-a850-4b4f-a39d-5154279fc050"
+  },
+  {
+    "id": 104,
+    "description": "Hauling",
+    "code": "H-W-0100",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:40:34.100Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:40:34.100Z",
+    "updated_at": "2024-10-31T08:40:33.835Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "12fdc164-aed3-41e4-a1fb-a4e00ceebf1a"
+  },
+  {
+    "id": 97,
+    "description": "Arrived at Dumping Point",
+    "code": "AADP-W-0154",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:49:20.430Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:49:20.430Z",
+    "updated_at": "2024-10-31T08:49:20.198Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "a57f3024-7cbb-495a-99d1-0aa9da4c3455"
+  },
+  {
+    "id": 105,
+    "description": "Dumping",
+    "code": "D-W-0101",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:52:04.891Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:52:04.891Z",
+    "updated_at": "2024-10-31T08:52:04.678Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "57ea4183-9b80-40c0-842f-d60a5c4bdcef"
+  },
+  {
+    "id": 107,
+    "description": "Travelling",
+    "code": "T-W-0096",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:53:53.641Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:53:53.641Z",
+    "updated_at": "2024-10-31T08:53:53.442Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "c22b4efc-25f4-460e-9808-139a68244a56"
+  },
+  {
+    "id": 96,
+    "description": "Arrived at Loading Point",
+    "code": "AALP-W-0153",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T08:59:29.352Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T08:59:29.352Z",
+    "updated_at": "2024-10-31T08:59:29.093Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "2e17e6a4-1d62-4e96-a8f7-3278c6ecd8e0"
+  },
+  {
+    "id": 146,
+    "description": "Loading",
+    "code": "L-W-0099",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T09:00:33.667Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T09:00:33.667Z",
+    "updated_at": "2024-10-31T09:00:33.434Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "ee1045aa-3419-4e9e-b504-079ba5ea8c36"
+  },
+  {
+    "id": 104,
+    "description": "Hauling",
+    "code": "H-W-0100",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T09:01:47.224Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T09:01:47.224Z",
+    "updated_at": "2024-10-31T09:01:46.961Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "2919ed25-cb27-4ce3-8026-a83740f1c7d1"
+  },
+  {
+    "id": 32,
+    "status": "Operational Delay",
+    "type": "DELAY",
+    "description": "Dusty",
+    "code": "D-D-0131",
+    "pinned_events": [
+      {
+        "equipment_type": "Truck",
+        "event_id": 32
+      }
+    ],
+    "lattitude": 0,
+    "longitude": 0,
+    "timestamp": "2024-10-31T09:02:46.641Z",
+    "hourMeter": 222,
+    "isSynced": true,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T09:02:46.641Z",
+    "validForSync": true,
+    "_id": "d59b903f-4aa6-4cdf-9888-7159a9371202"
+  },
+  {
+    "id": 104,
+    "description": "Hauling",
+    "code": "H-W-0100",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T09:06:11.572Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T09:06:11.572Z",
+    "updated_at": "2024-10-31T09:06:11.362Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "c43cf32d-e34a-4c1b-8ea6-02aafa6bf086"
+  },
+  {
+    "id": 97,
+    "description": "Arrived at Dumping Point",
+    "code": "AADP-W-0154",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T09:08:58.267Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T09:08:58.267Z",
+    "updated_at": "2024-10-31T09:08:58.045Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "5345c565-717e-480b-a5c9-f2b489aa8e06"
+  },
+  {
+    "id": 105,
+    "description": "Dumping",
+    "code": "D-W-0101",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T09:09:50.934Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T09:09:50.933Z",
+    "updated_at": "2024-10-31T09:09:50.728Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "c6065ed2-0023-4b93-9294-5d1271e837ac"
+  },
+  {
+    "id": 107,
+    "description": "Travelling",
+    "code": "T-W-0096",
+    "type": "WORKING",
+    "status": "WORKING",
+    "timestamp": "2024-10-31T09:14:27.786Z",
+    "hourMeter": 0,
+    "created_by": "ABDUL RAHMAN PAKAYA",
+    "created_at": "2024-10-31T09:14:27.786Z",
+    "updated_at": "2024-10-31T09:14:27.524Z",
+    "updated_by": "SMA2303769",
+    "isSynced": true,
+    "lattitude": 0,
+    "longitude": 0,
+    "validForSync": true,
+    "_id": "0140e9cf-06f4-4c15-af29-8c63b2b9ce07"
+  }
+]
